@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lcn-demo-parent" />
+        <module name="lcn-demo1" />
+        <module name="lcn-demo2" />
+        <module name="lcn-demo3" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lcn-demo-parent" target="1.8" />
+      <module name="lcn-demo1" target="1.8" />
+      <module name="lcn-demo2" target="1.8" />
+      <module name="lcn-demo3" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
